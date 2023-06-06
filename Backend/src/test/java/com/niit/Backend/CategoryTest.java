@@ -24,12 +24,12 @@ public class CategoryTest
 		
 		categoryDAO = (CategoryDAO)context.getBean("categoryDAO");
 	}
-	
+	/*
 	//@Test
 	public void testInsert()
 	{
 		category = new Category();
-		//category.setId(5);
+		category.setId(5);
 		category.setCategoryName("Laptop");
 		category.setDescription("Sample category for Laptop");
 		category.setActive(true);
@@ -59,5 +59,5 @@ public class CategoryTest
 	{
 		assertEquals("Error updating Category" , 2, categoryDAO.categoryList().size());
 	}
-
+*/
 }

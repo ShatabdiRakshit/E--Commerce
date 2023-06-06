@@ -31,21 +31,23 @@ public class CartlineTest
 		productDAO = (ProductDAO)context.getBean("productDAO");
 		cartlinesDAO = (CartLinesDAO)context.getBean("cartlinesDAO");
 	}
+	/*
 	
-	//@Test
+	@Test
 	public void testInsert()
 	{
-		product = productDAO.getProduct(6);
+		product = productDAO.getProduct(3);
 		
 		cartlines = new CartLines();
 		
 		cartlines.setProduct(product);
 		cartlines.setCartId(1);
-		cartlines.setProductCount(3);
+		cartlines.setProductCount(5);
 		cartlines.setBuyingPrice(product.getUnitPrice());
 		cartlines.setTotal(cartlines.getBuyingPrice() * cartlines.getProductCount());
 		cartlines.setAvailable(true);
 		
 		assertEquals("Error adding cartline" , true , cartlinesDAO.add(cartlines));
 	}
+	*/
 }
